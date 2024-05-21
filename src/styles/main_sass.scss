@@ -105,7 +105,7 @@ body {
 }
 
 .about {
-    // padding: 45px 0;
+
     margin-top: -45px;
 
 
@@ -165,7 +165,6 @@ body {
 
 .vacancies__department_list {
     display: flex;
-    // flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 35px;
@@ -295,9 +294,7 @@ body {
 .product__item {
     width: 46%;
     height: 96%;
-    // height: 300px;
-    // border: 4px solid #4f4f4f;
-    // box-shadow: 0 0 0 5px rgba(217, 217, 217, 0.25);
+
     background: #d9d9d9;
 }
 
@@ -366,15 +363,7 @@ body {
         background: #d9d9d9 linear-gradient(270deg, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0.7) 100%);
     }
 
-    // .swiper-button-next:after,
-    // .swiper-button-prev:after {
-    //     background: url('../img/arrow-right.svg') no-repeat;
-    //     font-size: 0;
-    //     content: 'next';
-    //     width: 17px;
-    //     height: 30px;
 
-    // }
 
 
 }
@@ -510,13 +499,18 @@ body {
     background-color: #212121;
     padding-top: 45px;
     position: relative;
+    background-image: url('../img/persons.svg'), url('../img/shine2.webp') ;
+    background-position : -29px 88px,-398px -258px;
+    background-repeat: no-repeat, no-repeat;
+
+
 
     &__title {
         text-transform: uppercase;
         font-weight: bold;
         font-size: 18px;
         line-height: 1.3333;
-
+        margin-bottom: 140px;
         &>p+p {
             padding-top: 15px;
         }
@@ -532,6 +526,23 @@ body {
         // object-position: 50% 50%;
         width: 622px;
         height: 404px;
+    }
+    &__card {
+        padding: 20px 26.5px;
+        border-radius: 20px;
+        border: 3px solid #36853B;
+        background-color: rgba(0, 0, 0, 0.8);
+        max-width: 435px;
+    }
+    &__card_title {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: calc( 22 / 18);
+        margin-bottom: 20px;
+    }
+    &__card_btn {
+        width: 100%;
+        padding: 10px;
     }
 }
 

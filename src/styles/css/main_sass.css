@@ -416,12 +416,16 @@ body {
   background-color: #212121;
   padding-top: 45px;
   position: relative;
+  background-image: url("../img/persons.svg"), url("../img/shine2.webp");
+  background-position: -29px 88px, -398px -258px;
+  background-repeat: no-repeat, no-repeat;
 }
 .additional__title {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 18px;
   line-height: 1.3333;
+  margin-bottom: 140px;
 }
 .additional__title > p + p {
   padding-top: 15px;
@@ -434,6 +438,23 @@ body {
 .additional__pict {
   width: 622px;
   height: 404px;
+}
+.additional__card {
+  padding: 20px 26.5px;
+  border-radius: 20px;
+  border: 3px solid #36853B;
+  background-color: rgba(0, 0, 0, 0.8);
+  max-width: 435px;
+}
+.additional__card_title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.2222222222;
+  margin-bottom: 20px;
+}
+.additional__card_btn {
+  width: 100%;
+  padding: 10px;
 }
 
 .contacts {
